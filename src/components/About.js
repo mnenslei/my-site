@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className='about-container-2'>
                 <div className='skills'>
-                    <h3>🛠 My technical skills:</h3>
+                    <h3>🛠 Technical Skills:</h3>
                     <ul>
                         <li>HTML/CSS</li>
                         <li>Javascript (React, Redux, Node.js, Express, Yup, Axios, Knex)</li>
@@ -25,7 +25,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className='hobbies'>
-                    <h3>🏌️ Activities and Hobbies I Enjoy:</h3>
+                    <h3>🏌️ Activities and Hobbies:</h3>
                     <ul>
                         <li>Spending time with my family</li>
                         <li>Blockchain Technology</li>
