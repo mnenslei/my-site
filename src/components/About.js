@@ -17,10 +17,10 @@ const About = () => {
                 <div className='skills'>
                     <h3>🛠 Technical Skills:</h3>
                     <ul>
+                        <li>Git</li>
                         <li>HTML/CSS</li>
                         <li>Javascript (React, Redux, Node.js, Express, Yup, Axios, Knex)</li>
                         <li>Databases: SQL, PostgreSQL</li>
-                        <li>Git</li>
                         <li>Deployment: Heroku, Vercel, Netlify</li>
                     </ul>
                 </div>
@@ -29,7 +29,7 @@ const About = () => {
                     <ul>
                         <li>Spending time with my family</li>
                         <li>Blockchain Technology</li>
-                        <li>Sports: Golf, Basketball, Football, Soccer</li>
+                        <li>Golf, Basketball, Football, Soccer</li>
                         <li>Attending live shows and concerts</li>
                         <li>Trivia Nights and Board Games</li>
                         <li>Traveling!</li>

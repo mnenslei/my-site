@@ -45,7 +45,8 @@ code {
   font-size: 1.5rem;
 }
 .banner-links a:hover{
-  color: #432DAD;
+  text-decoration: underline rgb(162, 207, 212);
+  padding-top: 3px;
   font-weight: bolder;
 }
 
@@ -214,7 +215,11 @@ code {
 .about-container-2{
   display: flex;
   flex-direction: row;
-  padding: 5%;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+.about-container-2 h3{
+  margin-left: 4.75%;
 }
 
 .skills{
@@ -223,6 +228,7 @@ code {
 
 .hobbies{
   width: 50%;
+  padding-left: 10%;
 }
 
 @media (max-width: 600px) {
