@@ -43,7 +43,7 @@ const Container = () => {
           {projectData.map((project) => (
                 <div className='card'>
                     <div className='card-side front'>
-                    <h3>{project.title}</h3>
+                    <h3>{project.title.toLocaleUpperCase()}</h3>
                         <div className='item'>  
                         <img src={project.img} alt={project.alt}></img>
                         </div>
