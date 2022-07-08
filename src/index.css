@@ -45,7 +45,7 @@ code {
   font-size: 1.5rem;
 }
 .banner-links a:hover{
-  text-decoration: underline rgb(162, 207, 212);
+  color: rgb(65, 204, 197);
   padding-top: 3px;
   font-weight: bolder;
 }
@@ -286,13 +286,18 @@ code {
   .container{
     white-space: normal;
     height: 60%;
+    width: 100%;
+  }
+  .container h2{
+    align-items: center;
+    text-align: center;
   }
   .card-container{
     display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    width: 87.5%;
+    width: 75%;
   }
   .card{
     padding: 10rem;
@@ -300,6 +305,7 @@ code {
   .card-side{
     height: 15rem;
     width: 10rem;
+    left: 0%;
   }
   .card-side.back{
     line-height: 13px;
@@ -337,6 +343,12 @@ code {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .skills, .hobbies h3{
+    font-size: 17px;
+  }
+  .hobbies{
+    padding: 0px;
   }
   ul{
     display: flex;

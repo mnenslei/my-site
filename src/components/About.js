@@ -25,7 +25,7 @@ const About = () => {
                     </ul>
                 </div>
                 <div className='hobbies'>
-                    <h3>🏌️ Activities and Hobbies:</h3>
+                    <h3>{`🏌️ Activities & Hobbies:`}</h3>
                     <ul>
                         <li>Spending time with my family</li>
                         <li>Blockchain Technology</li>
