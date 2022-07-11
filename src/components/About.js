@@ -17,6 +17,7 @@ const About = () => {
                 <div className='skills'>
                     <h3>🛠 Technical Skills:</h3>
                     <ul>
+                        <li>Googleing</li>
                         <li>Git</li>
                         <li>HTML/CSS</li>
                         <li>Javascript (React, Redux, Node.js, Express, Yup, Axios, Knex)</li>
