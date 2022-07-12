@@ -299,12 +299,46 @@ code {
     width: 75%;
   }
   .card{
-    padding: 10rem;
+    padding: 11rem;
   }
-  .card-side{
-    height: 15rem;
-    width: 10rem;
-    left: 0%;
+  .card-side {
+    height: 18rem;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: fixed;
+    min-width: 12.5rem;
+    width: 50%;
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-side.back {
+    transform: rotateY(-180deg);
+    background-color: #115075be;
+    background-image: linear-gradient(43deg, #432DAD 100%);
+    border: solid 10px rgba(255, 255, 255, 0.541);
+  }
+  
+  .card-side.front {
+    background-color: rgba(255, 255, 255, 0.541);
+    background-image: rgba(255, 255, 255, 0.596);
+    border: solid 10px rgba(65, 114, 204, 0.61)
+  }
+  .card-side.front h3{
+    color:black;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 5%;
+  }
+  
+  .card:hover .card-side.front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side.back {
+    transform: rotateY(0deg);
   }
   .card-side.back{
     line-height: 13px;
