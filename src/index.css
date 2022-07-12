@@ -245,6 +245,10 @@ code {
   }
 }
 @media (max-device-width: 768px) {
+  .home-container h1{
+    padding-bottom: 3%;
+  }
+  
   .banner-container{
     display: flex;
     flex-direction: row;
