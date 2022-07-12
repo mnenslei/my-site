@@ -306,7 +306,7 @@ code {
   }
   
   .card {
-    perspective: 150rem;
+    perspective: 0;
     max-height: 15px;
     min-width: 20px;
     padding: 13rem;
