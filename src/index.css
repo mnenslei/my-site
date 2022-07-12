@@ -416,7 +416,7 @@ code {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 0;
-    gap: 0;
+    line-height: 0px;
+    gap: 0px;
   }
 }
