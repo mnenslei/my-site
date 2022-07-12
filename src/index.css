@@ -240,7 +240,47 @@ code {
   padding-left: 10%;
 }
 
-@media (max-width: 768px) {
+@media (max-device-width: 1200px){
+  h1{
+    font-size: 34px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .logo-div{
+    margin-top: 1%;
+  }
+  .banner-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: right;
+    width: 20%;
+    gap: 0px;
+    margin: 1% 3% 1% 0%;
+  }
+  .home-container{
+    min-height: 55rem;
+  }
+  .back h3{
+    font-size: 24px;
+  }
+  .back p{
+    font-size: 16px;
+  }
+  .about-container{
+    min-height: 55rem;
+  }
+}
+
+@media (max-device-width: 768px) {
   .banner-container{
     display: flex;
     flex-direction: row;
