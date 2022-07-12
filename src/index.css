@@ -63,6 +63,10 @@ code {
   min-height: 35rem;
 }
 
+.home-container h1{
+  padding-bottom: 3%;
+}
+
 .home-container p{
   width: 70%;
 }
