@@ -283,6 +283,102 @@ code {
   p{
     font-size: 12px;
   }
+  .container{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    min-height: 35rem
+  }
+  
+  .container h2{
+    padding: 1%;
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  
+  .card {
+    perspective: 0;
+    max-height: 15px;
+    min-width: 20px;
+    padding: 13rem;
+    box-shadow: none;
+    background: none;
+  }
+  
+  .card-side {
+    height: 20rem;
+    border-radius: 25px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 16%;
+    max-width: 12rem;
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card-side.back {
+    transform: rotateY(-180deg);
+    background-color: #115075be;
+    background-image: linear-gradient(43deg, #432DAD 100%);
+    border: solid 10px rgba(255, 255, 255, 0.541);
+  }
+  
+  .card-side.front {
+    background-color: rgba(255, 255, 255, 0.541);
+    background-image: rgba(255, 255, 255, 0.596);
+    border: solid 10px rgba(65, 114, 204, 0.61)
+  }
+  .card-side.front h3{
+    color:black;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 5%;
+  }
+  
+  .card:hover .card-side.front {
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover .card-side.back {
+    transform: rotateY(0deg);
+  }
+  
+  .card-side.front img{
+    max-width: 80%;
+    margin-left: 10%;
+    height: auto;
+    align-items: center;
+    background-color: transparent;
+    padding-bottom: 25%;
+  }
+  
+  .card-side.back a{
+    color: white;
+  }
+  .item {
+    min-height: 250px;
+    max-height: auto;
+    display: flex;
+    margin: 2.5%;
+    height: 30%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
   .about-container-1{
     text-align: left;
   }
