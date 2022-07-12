@@ -240,7 +240,7 @@ code {
   padding-left: 10%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .banner-container{
     display: flex;
     flex-direction: row;
@@ -302,11 +302,13 @@ code {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content:flex-start;
+    align-items: center;
+    width: 50%;
   }
   
   .card {
-    perspective: 0;
+    perspective: 150rem;
     max-height: 15px;
     min-width: 20px;
     padding: 13rem;
@@ -319,12 +321,12 @@ code {
     border-radius: 25px;
     transition: all 0.8s ease;
     backface-visibility: hidden;
-    position: fixed;
+    position: relative;
+    align-items: inherit;
     top: 0;
-    left: 16%;
+    left: 20px;
     max-width: 12rem;
     width: 100%;
-    padding: 1rem;
     color: white;
     align-items: center;
     text-align: center;
