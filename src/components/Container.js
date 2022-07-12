@@ -6,6 +6,7 @@ import img4 from '../Images/bitcoin.svg'
 
 const projectData = [
     {
+        id: 1,
         title: 'CoderHeroes',
         img: img1,
         alt: 'CoderHeroes Logo',
@@ -13,6 +14,7 @@ const projectData = [
         link: 'https://github.com/BloomTech-Labs/coder-heroes-fe'
     },
     {
+        id: 2,
         title: 'Potluck Planner',
         img: img2,
         alt: 'Potluck Logo',
@@ -20,6 +22,7 @@ const projectData = [
         link: 'https://github.com/Potluck-planner-4-build-week/Front-end'
     },
     {
+        id: 3,
         title: 'AI Genie',
         img: img3,
         alt: 'Genie Logo',
@@ -27,6 +30,7 @@ const projectData = [
         link: 'https://shopify-gpt3.vercel.app/'
     },
     {
+        id: 4,
         title: 'Crypto Custom Hooks',
         img: img4,
         alt: 'Bitcoin Logo',
@@ -41,7 +45,7 @@ const Container = () => {
           <h2>Projects</h2>
           <div className='card-container'>
           {projectData.map((project) => (
-                <div className='card'>
+                <div className='card' key={project.id}>
                     <div className='card-side front'>
                     <h3>{project.title.toLocaleUpperCase()}</h3>
                         <div className='item'>  
