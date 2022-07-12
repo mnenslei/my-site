@@ -246,7 +246,7 @@ code {
 }
 @media (max-device-width: 768px) {
   .home-container h1{
-    padding-bottom: 3%;
+    padding: 3% 0 3% 0;
   }
   
   .banner-container{
