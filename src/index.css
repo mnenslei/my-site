@@ -302,6 +302,8 @@ code {
   }
 
   .h-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -333,6 +335,7 @@ code {
     flex-direction: column;  
     align-items: center;
     justify-content: center;
+    padding-top: 10%;
   }
   
   .container h2{
@@ -422,6 +425,10 @@ code {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+  }
+  .about-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
   .about-container-1{
     text-align: left;
