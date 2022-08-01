@@ -103,7 +103,7 @@ code {
   gap: 1rem;
   border-top: solid 2px white;
   padding: 2%;
-  padding-top: 7.5%;
+  padding-top: 5%;
   padding-bottom: 7.5%;
   border-bottom: solid 2px white;
 }
@@ -245,7 +245,7 @@ code {
   width: 70%;
   display: flex;
   flex-direction: column;
-  padding-top: 7.5%;
+  padding-top: 5%;
   padding-bottom: 7.5%;
 }
 
