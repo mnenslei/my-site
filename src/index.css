@@ -347,12 +347,12 @@ code {
   
   .card-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:flex-start;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
-    width: 85%;
-    margin-left: 1.5%;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
   }
   
   .card {
