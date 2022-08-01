@@ -12,9 +12,9 @@ return(
             </Link>
         </div>
         <div className='banner-links'>
-            <a href='#home'>Home</a>
-            <a href='#projects'>Projects</a>
-            <a href='#about'>About</a>
+            <a href='#home'>🏠 HOME</a>
+            <a href='#projects'>🛠 PROJECTS</a>
+            <a href='#about'>⛳ ABOUT</a>
         </div>
     </div>
     )

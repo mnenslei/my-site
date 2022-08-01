@@ -292,7 +292,7 @@ code {
     justify-content: center;
     flex-wrap:nowrap;
     align-items:flex-end;
-    line-height: 7.5px;
+    line-height: 12px;
   }
 
   .h-container{
