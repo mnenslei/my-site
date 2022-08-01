@@ -11,11 +11,9 @@ function App() {
   return (
     <div className="App">
       <Banner />
-        <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/projects' element={<Container />} />
-          <Route path='/about' element={<About />} />
-        </Routes>
+      <Home />
+      <Container />
+      <About />
       <Footer />
       </div>
   );

@@ -41,7 +41,7 @@ const projectData = [
 
 const Container = () => {
     return (
-      <div className='container'>
+      <div className='container' id='projects'>
           <h2>Projects</h2>
           <div className='card-container'>
           {projectData.map((project) => (
