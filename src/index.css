@@ -137,7 +137,7 @@ code {
   border-radius: 25px;
   transition: all 0.8s ease;
   backface-visibility: hidden;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 5%;
   min-width: 15rem;
