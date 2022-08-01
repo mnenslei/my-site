@@ -351,6 +351,7 @@ code {
     justify-content:center;
     align-items: center;
     width: 90%;
+    margin-left: 2%;
   }
   
   .card {
