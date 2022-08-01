@@ -1,5 +1,4 @@
 import React from "react";
-import {Routes, Route} from 'react-router-dom'
 
 import Banner from "./components/Banner";
 import Home from "./components/Home";
